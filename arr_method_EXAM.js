@@ -57,7 +57,7 @@ console.log(Q11);
 const Q13 = list1.slice(1,5);
 console.log(Q13);
 
-const Q14 = list1.filter(
+const Q14 = list1.map(
   function (name){
     return name.includes("이")
   }
